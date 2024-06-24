@@ -1,16 +1,70 @@
-.page-container {
-    width: 100%;
-    height: 100vh;
-    color: white;
-    background: rgb(44,47,57);
-    /*Wil jij ook zo'n coole gradient maken? Deze is gemaakt via https://cssgradient.io/ - kind kan de was doen!*/
-    background: linear-gradient(37deg, rgba(44,47,57,1) 0%, rgba(0,0,0,1) 8%, rgba(80,83,92,1) 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.page-container img {
-    width: 500px;
+nav {
+    background-color: #2d2f39;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    /*border: 1px solid green;*/
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    /*border: 1px solid white;*/
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 20px;
+    /*border: 1px solid white;*/
+}
+
+.new-blog {
+    border: 2px solid #38e991;
+    color: #38e991;
+    padding: 10px;
+}
+
+.new-blog:hover {
+    color: white;
+    padding: 10px;
+    background-color: #38e991;
+    transition-duration: 0.4s;
+}
+
+.li-new-blog:hover {
+    text-decoration: none;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    /*border: 1px solid white;*/
+}
+
+.nav-list li a:hover {
+    color: #38e991;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.nav-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    /*border: 1px solid white;*/
+
 }

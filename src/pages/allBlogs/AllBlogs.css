@@ -1,0 +1,40 @@
+body {
+
+    background-color: #e8e9ed;
+}
+
+.allBlogs {
+    padding: 20px;
+}
+
+.blog-list {
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
+    /*border: 2px solid yellow;*/
+}
+
+.title {
+    color: #38E991;
+}
+
+.container {
+    /*border: 2px solid blue;*/
+display: flex;
+
+
+
+}
+
+.container li {
+
+}
+
+.container p {
+    /*border: 2px solid black;*/
+}
+
+.blog-top {
+    /*border: 2px solid yellow;*/
+
+}
